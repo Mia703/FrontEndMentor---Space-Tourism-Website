@@ -1,0 +1,4 @@
+Start Date: Jun 28, 2022
+
+Let's work on the home page first!
+- Draw out the structure of the home page and the assets I'll need []
