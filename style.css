@@ -1,0 +1,91 @@
+/* ------------ MAIN STYLE FILE ------------ */
+
+/* ------------ BODY STYLES ------------ */
+
+body {
+    background-image: url('./assets/home/background-home-desktop.jpg');
+    color: white;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bellefair', sans-serif;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+}
+
+/* ------------ INDEX FILE ------------ */
+
+/* ------------ TOP DIV ------------ */
+
+/* ------------ nav bar text ------------ */
+.nav-bar-class {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 8rem;
+    background-color: green;
+    padding: 1.5rem;
+}
+
+.nav-bar-class ul {
+
+}
+
+.nav-bar-class li {
+    display: inline;
+}
+
+.nav-bar-class a {
+    color: white;
+    text-align: center;
+
+    /* padding between a elements */
+    padding: 14px 16px;
+
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+
+    /* removes underline */
+    text-decoration: none;
+
+}
+
+/* ------------ MIDDLE DIV ------------ */
+.explore-btn {
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    color: #0b0d17;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 20px;
+    
+}

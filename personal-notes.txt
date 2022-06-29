@@ -1,4 +1,9 @@
 Start Date: Jun 28, 2022
 
 Let's work on the home page first!
-- Draw out the structure of the home page and the assets I'll need []
+- Draw out the structure of the home page and the assets I'll need [X]
+- Go get font families [X]
+    - Bellefair Regular 400
+    - Barlow Condensed Regular 400
+- Structure "index.html" text [X]
+- Adding text decorations to "index.html"
