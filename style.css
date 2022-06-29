@@ -152,6 +152,7 @@ p {
 /* middle div */
 .middle-div {
     margin-left: 10rem;
+    display: inline-block;
 }
 
 .middle-div h5 {
@@ -186,7 +187,7 @@ p {
     bottom: 2.6875rem;
 
     background: rgba(255, 255, 255, 0.181);
-    border-radius: 50%;
+    border-radius: 100%;
     
     /* hide the box until hovered over */
     visibility: hidden;
@@ -208,7 +209,7 @@ p {
     width: 274px;
     height: 274px;
 
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .explore-btn {
