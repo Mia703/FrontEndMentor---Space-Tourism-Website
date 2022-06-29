@@ -7,3 +7,4 @@ Let's work on the home page first!
     - Barlow Condensed Regular 400
 - Structure "index.html" text [X]
 - Adding text decorations to "index.html"
+- Positions -> display -> top/left/right/bottom
