@@ -43,26 +43,41 @@ h5 {
     text-transform: uppercase;
 }
 
-/* ------------ INDEX FILE ------------ */
+/* ----------------- index.html: TOP DIV ----------------- */
 
-/* ------------ TOP DIV ------------ */
+.top-div img {
+    display: inline-block;
+    width: 40px;
+    margin: 30px;
+    
+}
+
+.top-div hr {
+    display: inline-block;
+    width: 500px;
+    margin: 0px 0px 50px 20px;
+
+}
 
 /* ------------ nav bar ------------ */
 .nav-bar-class {
-    /* removed dot */
+    display: inline-block;
+
+    /* removed the styling of the dotted list */
     list-style: none;
 
-    background: green;
+    background: rgba(255, 255, 255, 0.056);
 
-    /* make the menu right-aligned */
+    backdrop-filter: blur(0.6px);
+
+    /* make the text right-aligned */
     text-align: right;
 
-    margin: 30px auto auto 700px;
-    
-    padding-top: 0;
-    padding-right: 8rem;
-    padding-bottom: 0;
-    padding-left: 0;
+    position: absolute;
+    right: 0;
+
+    padding-right: 160px;
+    padding-left: 130px;
 }
 
 .nav-bar-class li {
@@ -79,25 +94,31 @@ h5 {
 
     color: white;
 
-    /* transforms the text to uppercase */
+    /* transforms text to uppercase */
     text-transform: uppercase;
 
-    /* removes the under line */
+    /* removes underline */
     text-decoration: none;
 
+    /* expands the whole width of the page; 
+    each block on new line; 
+    can change width */
     display: block;
+
     padding: 20px 20px;
+
+}
+
+/* when hovering over the link, underline it*/
+.nav-bar-class a:hover {
+    border-bottom: 2px solid;
 }
 
 .nav-bar-bold {
     font-weight: bold;
 }
 
-.nav-bar-class a:hover {
-    background: pink;
-}
-
-/* ------------ MIDDLE DIV ------------ */
+/* ----------------- index.html: MIDDLE DIV ----------------- */
 .explore-btn {
     font-size: 28px;
     letter-spacing: 4.75px;
