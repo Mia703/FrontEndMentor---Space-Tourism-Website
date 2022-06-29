@@ -6,5 +6,15 @@ Let's work on the home page first!
     - Bellefair Regular 400
     - Barlow Condensed Regular 400
 - Structure "index.html" text [X]
-- Adding text decorations to "index.html"
-- Positions -> display -> top/left/right/bottom
+- Adding text decorations to "index.html" [X]
+
+- Positions -> display -> top/left/right/bottom = order of events
+
+- Next work on desintation page []
+- Note when measuring padding/margin divide by half for other elements
+- https://pixelsconverter.com/px-to-rem#:~:text=How%20to%20Use%20PX%20to%20REM%20Converter%201,the%20result%20will%20be%20displayed%20on%20REM%20field.
+- When to use certain units:
+    - font size = rem
+    - width = % + max-width, for width of characters use = ch
+    - padding/margin = rem or em
+    - use px only for shadows or small stuff
