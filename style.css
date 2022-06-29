@@ -119,6 +119,13 @@ h5 {
 }
 
 /* ----------------- index.html: MIDDLE DIV ----------------- */
+.middle-div {
+    margin: 40px 0px 0px 8rem;
+}
+
+.middle-div h1, h2, h3, h4, h5 {
+    margin: 0;
+}
 .explore-btn {
     font-size: 28px;
     letter-spacing: 4.75px;
