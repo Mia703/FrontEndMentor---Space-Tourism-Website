@@ -1,13 +1,12 @@
 
-/* -------------------------- index.html -------------------------- */
+/* -------------------------- destination-moon.html -------------------------- */
 body {
-    /* insert background image */
-    background-image: url('./assets/home/background-home-desktop.jpg');
-
-    color: white;
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
 
     margin: 0;
     padding: 0;
+
+    color: white;
 }
 
 /* heading styles */
@@ -51,7 +50,20 @@ p {
     text-align: justify;
 }
 
-/* ------------------ index.html: top-div ------------------ */
+.subheading-1 {
+    margin: 0;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+}
+
+.subheading-2 {
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+}
+
+/* ------------------ destination-moon.html: top-div ------------------ */
 .top-div {
     position: relative;
 }
@@ -144,87 +156,101 @@ p {
 .nav-bar-class a:hover {
     border-bottom: 2px solid yellow;
 }
-
-/* ------------------ index.html: middle-div ------------------ */
-.middle-div {
-    margin-left: 10rem;
+/* ------------------ destination-moon.html: left-div ------------------ */
+.left-div {
+    position: relative;
+    left: 10.375rem;
     display: inline-block;
 }
 
-.middle-div h5 {
-    margin: 1.5625rem 0rem;
+.left-div h5 {
+    margin: 2rem 0rem;
 }
 
-.middle-div h1 {
-    /* 1.5625rem = 25px */
-    /* 2.22rem = 35.5px */
-    margin: 1.5625rem 0rem 2.22rem 0rem; 
-}
-.middle-div h1:hover {
-    color: yellow;
+.left-div img {
+    width: 445px;
+    margin: 4.4375rem;
 }
 
-.middle-div p {
-    margin: 2.22rem 0rem;
-
-    /* max 45 characters per a line */
-    width: 45ch;
+/* ------------------ destination-moon.html: right-div ------------------ */
+.right-div {
 
 }
 
-/* ------------------ index.html: button-div ------------------ */
-.explore-grandpa-circle1 {
-    position: absolute;
-
-    width: 450px;
-    height: 450px;
-
-    right: 4.875rem;
-    bottom: 2.6875rem;
-
-    background: rgba(255, 255, 255, 0.181);
-    border-radius: 100%;
-    
-    /* hide the box until hovered over */
-    visibility: hidden;
-}
-
-.explore-grandpa-circle1:hover {
-    visibility: visible;
-}
-
-.explore-parent-circle1 {
-    visibility: visible;
-    position: relative;
-    background: white;
-
-    margin: 5.4375rem;
-    padding: 0;
-
-    width: 274px;
-    height: 274px;
-
-    border-radius: 100%;
-}
-
-.explore-btn {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    
-    text-align: center;
-
+/* -------------- destination sub menu -------------- */
+.destination-sub-menu-class {
     margin: 0;
-    padding: 7.8125rem 4.125rem;
+    padding: 0;
 }
 
-.explore-btn a {
-    font-family: 'Bellefair', sans-serif;
-    font-size: 32px;
-    letter-spacing: 2px;
+.destination-sub-menu-class li {
+    display: inline-block;
+}
+
+.destination-sub-menu-class a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+    color: white;
+
     text-transform: uppercase;
 
-    color: black;
-    
+    /* removes underline */
     text-decoration: none;
+
+    display: block;
+    padding: 0.75rem 1.09375rem;
+}
+
+#dest-sub-menu-first {
+    padding-left: 0rem;
+}
+
+.destination-sub-menu-class a:hover {
+    border-bottom: 1px solid yellow;
+}
+
+/* -------------- destination h1 tag -------------- */
+.right-div h1 {
+    margin: 3rem 0rem;
+}
+
+/* -------------- destination paragraph -------------- */
+.right-div p {
+    width: 444px;
+    margin-bottom: 3.9375rem;
+}
+
+/* -------------- destination hr -------------- */
+.right-div hr {
+    margin: 0rem 0rem 1.8125rem 0rem;
+    width: 444px;
+
+    height: 1px;
+    background-color: rgb(151, 151, 151);
+    border: none;
+}
+
+/* -------------- destination columns -------------- */
+.avg-distance-class {
+    display: inline-block;
+    margin: 0px 52px 0px 0px;
+    padding: 0;
+    float: left;
+    width: 142px;
+
+}
+
+.subheading-1, .subheading-2 {
+    
+    display: inline;
+}
+
+.travel-time-class {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 118px;
 }
