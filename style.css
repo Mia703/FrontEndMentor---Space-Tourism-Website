@@ -49,6 +49,8 @@ p {
 
     /* justify text */
     text-align: justify;
+
+    color: rgb(151, 151, 151);
 }
 
 /* ------------------ index.html: top-div ------------------ */
@@ -134,7 +136,9 @@ p {
     display: block;
 
     /* text spacing = 25.9px */
-    padding: 1.61875rem;
+    padding: 1.61875rem 0rem;
+
+    margin: 0rem 1.7rem;
 }
 
 .nav-bar-bold {
@@ -142,12 +146,13 @@ p {
 }
 
 .nav-bar-class a:hover {
-    border-bottom: 2px solid yellow;
+    color: yellow;
 }
 
 /* ------------------ index.html: middle-div ------------------ */
 .middle-div {
-    margin-left: 10rem;
+    margin-left: 11rem;
+    margin-top: 5rem;
     display: inline-block;
 }
 
@@ -180,7 +185,7 @@ p {
     height: 450px;
 
     right: 4.875rem;
-    bottom: 2.6875rem;
+    bottom: 5rem;
 
     background: rgba(255, 255, 255, 0.181);
     border-radius: 100%;

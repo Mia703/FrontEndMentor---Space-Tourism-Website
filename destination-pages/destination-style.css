@@ -48,6 +48,8 @@ p {
 
     /* justify text */
     text-align: justify;
+
+    color: rgb(151, 151, 151);
 }
 
 .subheading-1 {
@@ -76,6 +78,7 @@ p {
 
     /* 64px = 4rem */
     margin: 4rem;
+    margin-bottom: 0rem;
 }
 
 .horizontal-line-class {
@@ -146,7 +149,9 @@ p {
     display: block;
 
     /* text spacing = 25.9px */
-    padding: 1.61875rem;
+    padding: 1.61875rem 0rem;
+
+    margin: 0rem 1.7rem;
 }
 
 .nav-bar-bold {
@@ -154,8 +159,9 @@ p {
 }
 
 .nav-bar-class a:hover {
-    border-bottom: 2px solid yellow;
+    color: yellow;
 }
+
 /* ------------------ destination-moon.html: left-div ------------------ */
 .left-div {
     position: relative;
@@ -164,26 +170,34 @@ p {
 }
 
 .left-div h5 {
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
+}
+
+.h5-opacity-header {
+    color: rgba(151, 151, 151, 0.5);
 }
 
 .left-div img {
     width: 445px;
-    margin: 4.4375rem;
+    margin: 2rem 0rem;
 }
 
 /* ------------------ destination-moon.html: right-div ------------------ */
 .right-div {
-
+    position: absolute;
+    right: 8rem;
+    top: 13rem;
 }
 
 /* -------------- destination sub menu -------------- */
 .destination-sub-menu-class {
     margin: 0;
     padding: 0;
+    display: inline-block;
 }
 
 .destination-sub-menu-class li {
+    /* so that each element is next to each other */
     display: inline-block;
 }
 
@@ -200,22 +214,29 @@ p {
     text-decoration: none;
 
     display: block;
-    padding: 0.75rem 1.09375rem;
+
+    /* spacing the menu item */
+    padding: 0.75rem 0rem;
+    margin: 0rem 1.09375rem;
 }
 
 #dest-sub-menu-first {
-    padding-left: 0rem;
+    /* want 'moon' to be flush agains the "wall" */
+    margin-left: 0rem;
 }
 
 .destination-sub-menu-class a:hover {
-    border-bottom: 1px solid yellow;
+    color: yellow;
 }
 
 /* -------------- destination h1 tag -------------- */
 .right-div h1 {
-    margin: 3rem 0rem;
+    margin: 0.5rem 0rem;
 }
 
+.right-div h1:hover {
+    color: yellow;
+}
 /* -------------- destination paragraph -------------- */
 .right-div p {
     width: 444px;
@@ -235,7 +256,7 @@ p {
 /* -------------- destination columns -------------- */
 .avg-distance-class {
     display: inline-block;
-    margin: 0px 52px 0px 0px;
+    margin: 0px 70px 0px 0px;
     padding: 0;
     float: left;
     width: 142px;
