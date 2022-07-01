@@ -53,13 +53,11 @@ p {
 }
 
 .subheading-1 {
-    margin: 0;
     font-family: 'Bellefair', sans-serif;
     font-size: 28px;
 }
 
 .subheading-2 {
-    margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 14px;
     letter-spacing: 2.35px;
@@ -68,6 +66,7 @@ p {
 /* ------------------ destination-moon.html: top-div ------------------ */
 .top-div {
     position: relative;
+    margin-top: -22px;
 }
 
 .logo-class {
@@ -185,11 +184,11 @@ p {
 /* ------------------ destination-moon.html: right-div ------------------ */
 .right-div {
     position: absolute;
-    right: 8rem;
-    top: 13rem;
+    top: 9rem;
+    left: 46rem;
 }
 
-/* -------------- destination sub menu -------------- */
+/* -------------- destination sub menu: right-div -------------- */
 .destination-sub-menu-class {
     margin: 0;
     padding: 0;
@@ -238,9 +237,9 @@ p {
     color: yellow;
 }
 /* -------------- destination paragraph -------------- */
-.right-div p {
-    width: 444px;
-    margin-bottom: 3.9375rem;
+.destination-paragraph {
+    width: 50ch;
+    margin-bottom: 2rem;
 }
 
 /* -------------- destination hr -------------- */
@@ -260,12 +259,12 @@ p {
     padding: 0;
     float: left;
     width: 142px;
-
 }
 
 .subheading-1, .subheading-2 {
-    
-    display: inline;
+    margin-top: 0;
+    margin-bottom: 0;
+
 }
 
 .travel-time-class {

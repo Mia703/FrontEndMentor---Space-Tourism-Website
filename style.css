@@ -56,6 +56,7 @@ p {
 /* ------------------ index.html: top-div ------------------ */
 .top-div {
     position: relative;
+    margin-top: -22px;
 }
 
 .logo-class {
@@ -152,7 +153,7 @@ p {
 /* ------------------ index.html: middle-div ------------------ */
 .middle-div {
     margin-left: 11rem;
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: inline-block;
 }
 
@@ -165,6 +166,7 @@ p {
     /* 2.22rem = 35.5px */
     margin: 1.5625rem 0rem 2.22rem 0rem; 
 }
+
 .middle-div h1:hover {
     color: yellow;
 }
