@@ -1,0 +1,237 @@
+
+/* -------------------------- index.html -------------------------- */
+body {
+    /* insert background image */
+    background-image: url('./assets/home/background-home-desktop.jpg');
+
+    color: white;
+
+    margin: 0;
+    padding: 0;
+}
+
+/* heading styles */
+h1, h2, h3, h4 {
+    font-family: 'Bellefair', sans-serif;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 28px;
+    letter-spacing: 4.72px;
+}
+
+/* paragraph styles */
+p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    
+    /* double spaced */
+    line-height: 32px;
+
+    /* justify text */
+    text-align: justify;
+
+    color: rgb(151, 151, 151);
+}
+
+/* ------------------ index.html: top-div ------------------ */
+.top-div {
+    position: relative;
+    margin-top: -22px;
+}
+
+.logo-class {
+    /* allows the user to set the height and width of the element.
+    This value also prevents the line break, which means one element 
+    can be placed next to another element within a block. */
+    display: inline-block;
+
+    /* 64px = 4rem */
+    margin: 4rem;
+}
+
+.horizontal-line-class {
+
+    /* 'inline-block' = put the hr line on the same line as the logo and nav menu,
+        'absolute' = remove it from the natural flow of the page (= z axis +1) and 
+        keep it relative (= inside) its parent (= top-div class) */
+    display: inline-block;
+
+    position: absolute;
+
+    /* 88px = 5.5rem */
+    top: 5.5rem;
+
+    margin: 0;
+
+    width: 500px;
+    
+    /* remove border bottom to make line less thick */
+    border-bottom: none;
+    
+    /* move the line above other elements */
+    z-index: 1;
+}
+
+/* nav bar */
+.nav-bar-class {
+    /* the element is positioned realitve 
+    to its first positioned, non-static, parent element (= the top-div class) */
+    position: absolute;
+    right: 0;
+
+    /* puts the nav bar in line with the logo and horizontal line */
+    display: inline-block;
+
+    /* removes the dotted list */
+    list-style: none;
+
+    /* 40px = 2.5rem */
+    margin: 2.5rem 0rem 0rem 0rem;
+
+    /* left and right paddding = 117px | 72px */
+    padding: 0rem 7.3125rem 0rem 4.5rem;
+
+    /* adds blurred background */
+    -webkit-backdrop-filter: blur(81.55px);
+
+    background: rgba(151, 151, 151, 0.1);
+}
+
+.nav-bar-class li {
+    /* puts each list element in line */
+    display: inline-block;
+}
+
+.nav-bar-class a {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+
+    color: white;
+
+    text-transform: uppercase;
+
+    /* removes underline */
+    text-decoration: none;
+
+    display: block;
+
+    /* text spacing = 25.9px */
+    padding: 1.61875rem 0rem;
+
+    margin: 0rem 1.7rem;
+}
+
+.nav-bar-bold {
+    font-weight: bold;
+}
+
+.nav-bar-class a:hover {
+    color: yellow;
+}
+
+/* ------------------ index.html: middle-div ------------------ */
+.middle-div {
+    margin-left: 11rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.middle-div h5 {
+    margin: 1.5625rem 0rem;
+}
+
+.middle-div h1 {
+    /* 1.5625rem = 25px */
+    /* 2.22rem = 35.5px */
+    margin: 1.5625rem 0rem 2.22rem 0rem; 
+}
+
+.middle-div h1:hover {
+    color: yellow;
+}
+
+.middle-div p {
+    margin: 2.22rem 0rem;
+
+    /* max 45 characters per a line */
+    width: 45ch;
+
+}
+
+/* ------------------ index.html: button-div ------------------ */
+.explore-grandpa-circle1 {
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    right: 4.875rem;
+    bottom: 5rem;
+
+    background: rgba(255, 255, 255, 0.181);
+    border-radius: 100%;
+    
+    /* hide the box until hovered over */
+    visibility: hidden;
+}
+
+.explore-grandpa-circle1:hover {
+    visibility: visible;
+}
+
+.explore-parent-circle1 {
+    visibility: visible;
+    position: relative;
+    background: white;
+
+    margin: 5.4375rem;
+    padding: 0;
+
+    width: 274px;
+    height: 274px;
+
+    border-radius: 100%;
+}
+
+.explore-btn {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    
+    text-align: center;
+
+    margin: 0;
+    padding: 7.8125rem 4.125rem;
+}
+
+.explore-btn a {
+    font-family: 'Bellefair', sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: black;
+    
+    text-decoration: none;
+}
