@@ -1,13 +1,12 @@
 
-/* -------------------------- index.html -------------------------- */
+/* =================== crew files =================== */
 body {
-    /* insert background image */
-    background-image: url('./assets/home/background-home-desktop.jpg');
-
-    color: white;
+    background-image: url('../assets/crew/background-crew-desktop.jpg');
 
     margin: 0;
     padding: 0;
+
+    color: white;
 }
 
 /* heading styles */
@@ -39,6 +38,10 @@ h5 {
     letter-spacing: 4.72px;
 }
 
+.h5-opacity-header {
+    color: rgba(151, 151, 151, 0.5);
+}
+
 /* paragraph styles */
 p {
     font-family: 'Barlow', sans-serif;
@@ -50,10 +53,10 @@ p {
     /* justify text */
     text-align: justify;
 
-    color: rgb(151, 151, 151);
+    color: #D0D6F9;
 }
 
-/* ------------------ index.html: top-div ------------------ */
+/* ------------------ top-div = navigation ------------------ */
 .top-div {
     position: relative;
     margin-top: -22px;
@@ -67,6 +70,7 @@ p {
 
     /* 64px = 4rem */
     margin: 4rem;
+    margin-bottom: 0rem;
 }
 
 .horizontal-line-class {
@@ -116,6 +120,7 @@ p {
     -webkit-backdrop-filter: blur(81.55px);
 
     background: rgba(151, 151, 151, 0.1);
+;
 }
 
 .nav-bar-class li {
@@ -151,88 +156,81 @@ p {
     color: yellow;
 }
 
-/* ------------------ index.html: middle-div ------------------ */
-.middle-div {
-    margin-left: 11rem;
-    margin-top: 1rem;
-    display: inline-block;
+/* ------------------ left-div ------------------ */
+.left-div {
+    margin-left: 10rem;
+    margin-top: 4.75rem;
 }
 
-.middle-div h5 {
-    margin: 1.5625rem 0rem;
-}
-
-.middle-div h1 {
-    /* 1.5625rem = 25px */
-    /* 2.22rem = 35.5px */
-    margin: 1.5625rem 0rem 2.22rem 0rem; 
-}
-
-.middle-div h1:hover {
-    color: yellow;
-}
-
-.middle-div p {
-    margin: 2.22rem 0rem;
-
-    /* max 45 characters per a line */
-    width: 45ch;
-
-}
-
-/* ------------------ index.html: button-div ------------------ */
-.explore-grandpa-circle1 {
-    position: absolute;
-
-    width: 450px;
-    height: 450px;
-
-    right: 4.875rem;
-    bottom: 5rem;
-
-    background: rgba(255, 255, 255, 0.181);
-    border-radius: 100%;
-    
-    /* hide the box until hovered over */
-    visibility: hidden;
-}
-
-.explore-grandpa-circle1:hover {
-    visibility: visible;
-}
-
-.explore-parent-circle1 {
-    visibility: visible;
-    position: relative;
-    background: white;
-
-    margin: 5.4375rem;
-    padding: 0;
-
-    width: 274px;
-    height: 274px;
-
-    border-radius: 100%;
-}
-
-.explore-btn {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    
-    text-align: center;
-
+.left-div h5, h4, h3, p {
     margin: 0;
-    padding: 7.8125rem 4.125rem;
 }
 
-.explore-btn a {
-    font-family: 'Bellefair', sans-serif;
-    font-size: 32px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.crew-text-section {
+    margin-top: 5.5rem;
+}
 
-    color: black;
+.crew-title {
+    margin-bottom: 15px;
+}
+
+.crew-name {
+    margin-bottom: 27px;
+}
+
+.crew-paragraph {
+    width: 45ch;
+    margin-bottom: 3.5rem;
+}
+
+/* ------------------ crew-pictures ------------------ */
+.crew-picture img {
+    position: absolute;
+    right: 10rem;
+    bottom: 0;
+}
+
+#commander-img {
+	width: 26.25rem;
+}
+
+#specialist-img {
+	width: 24rem;
+}
+
+#pilot-img {
+	width: 30rem;
+}
+
+#engineer-img {
+	width: 32rem;
+}
+
+/* ------------------ dot navigation ------------------ */
+.dots-section {
+    list-style: none;
+    padding-left: 0;
+}
+
+.dots-section li {
+    display: inline-block;
     
-    text-decoration: none;
 }
+
+.dot-one {
+    display: inline-block;
+    margin: 0 24px 0 0;
+    background: rgba(151, 151, 151, 0.5);
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.dot-one.active-dot {
+    background: white;
+}
+
+/* =================== responsive edits =================== */
+/* @media screen and () {
+
+} */

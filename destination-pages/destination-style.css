@@ -123,6 +123,7 @@ p {
     padding: 0rem 7.3125rem 0rem 4.5rem;
 
     /* adds blurred background */
+    backdrop-filter: blur(81.55px);
     -webkit-backdrop-filter: blur(81.55px);
 
     background: rgba(151, 151, 151, 0.1);
@@ -254,7 +255,7 @@ p {
 
 /* -------------- destination columns -------------- */
 .avg-distance-class {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0px 70px 0px 0px;
     padding: 0;
     float: left;
@@ -268,7 +269,7 @@ p {
 }
 
 .travel-time-class {
-    display: inline-block;
+    /* display: inline-block; */
     margin: 0;
     padding: 0;
     float: left;
