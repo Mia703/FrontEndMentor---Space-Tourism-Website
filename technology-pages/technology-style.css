@@ -1,13 +1,12 @@
 
-/* -------------------------- index.html -------------------------- */
+/* =================== technology files =================== */
 body {
-    /* insert background image */
-    background-image: url('./assets/home/background-home-desktop.jpg');
-
-    color: white;
+    background-image: url('../assets/technology/background-technology-desktop.jpg');
 
     margin: 0;
     padding: 0;
+
+    color: white;
 }
 
 /* heading styles */
@@ -39,6 +38,10 @@ h5 {
     letter-spacing: 4.72px;
 }
 
+.h5-opacity-header {
+    color: rgba(151, 151, 151, 0.5);
+}
+
 /* paragraph styles */
 p {
     font-family: 'Barlow', sans-serif;
@@ -53,7 +56,7 @@ p {
     color: #D0D6F9;
 }
 
-/* ------------------ index.html: top-div ------------------ */
+/* ------------------ top-div = navigation ------------------ */
 .top-div {
     position: relative;
     margin-top: -22px;
@@ -67,6 +70,7 @@ p {
 
     /* 64px = 4rem */
     margin: 4rem;
+    margin-bottom: 0rem;
 }
 
 .horizontal-line-class {
@@ -116,6 +120,7 @@ p {
     -webkit-backdrop-filter: blur(81.55px);
 
     background: rgba(151, 151, 151, 0.1);
+;
 }
 
 .nav-bar-class li {
@@ -151,90 +156,86 @@ p {
     color: yellow;
 }
 
-/* ------------------ index.html: middle-div ------------------ */
-.middle-div {
-    margin-left: 11rem;
-    margin-top: 1rem;
-    display: inline-block;
+/* ------------------ left div ------------------ */
+.left-div {
+    /* moves the list to the left */
+    margin-left: 10.34rem;
 }
 
-.middle-div h5 {
-    margin: 1.5625rem 0rem;
-}
-
-.middle-div h1 {
-    /* 1.5625rem = 25px */
-    /* 2.22rem = 35.5px */
-    margin: 1.5625rem 0rem 2.22rem 0rem; 
-}
-
-.middle-div h1:hover {
-    color: yellow;
-}
-
-.middle-div p {
-    margin: 2.22rem 0rem;
-
-    /* max 45 characters per a line */
-    width: 45ch;
-
-}
-
-/* ------------------ index.html: button-div ------------------ */
-.explore-grandpa-circle1 {
+.left-side-menu {
     position: absolute;
-
-    width: 450px;
-    height: 450px;
-
-    right: 4.875rem;
-    bottom: 5rem;
-
-    background: rgba(255, 255, 255, 0.181);
-    border-radius: 100%;
-    
-    /* hide the box until hovered over */
-    visibility: hidden;
 }
 
-.explore-grandpa-circle1:hover {
-    visibility: visible;
-}
-
-.explore-parent-circle1 {
-    visibility: visible;
-    position: relative;
-    background: white;
-
-    margin: 5.4375rem;
+.left-side-menu ul {
+    /* removes invisible padding */
     padding: 0;
+}
 
-    width: 274px;
-    height: 274px;
+.left-side-menu li {
+    /* remove the dots for from the list */
+    list-style: none;
 
+    /* colour's the circle's border */
+    border: 0.5px solid;
+    border-color: white;
+
+    /* creates the circle */
+    padding: 20px 30px;
     border-radius: 100%;
+
+    /* spacing between circles */
+    margin-bottom: 31px;
 }
 
-.explore-btn {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    
-    text-align: center;
-
-    margin: 0;
-    padding: 7.8125rem 4.125rem;
-}
-
-.explore-btn a {
+.left-side-menu a {
+    /* removes the underline */
+    text-decoration: none;
     font-family: 'Bellefair', sans-serif;
     font-size: 32px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    color: white;
+}
 
+/* ------------------ active menu circle ------------------ */
+.active-bubble {
+    /* remove border */
+    border: 0;
+
+    /* change text colour */
+    color: blue;
+
+    background: white;
+}
+
+.active-bubble a {
     color: black;
-    
-    text-decoration: none;
+}
+
+/* ------------------ text information section ------------------ */
+.text-information-section {
+    margin-left: 8rem;
+}
+
+.text-information-section h5, h3 {
+    margin: 0;
+}
+
+.text-information-section h5 {
+    margin-bottom: 0.5rem;
+}
+
+.text-information-section p {
+    width: 45ch;
+}
+
+/* tech image */
+.tech-image img {
+    position: absolute;
+    right: 0;
+    bottom: 3rem;
+    width: 450px;
 }
 
 /* =================== responsive edits =================== */
+/* @media screen and () {
+
+} */
