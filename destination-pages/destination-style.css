@@ -49,18 +49,21 @@ p {
     /* justify text */
     text-align: justify;
 
-    color: rgb(151, 151, 151);
+    /* text colour */
+    color: #D0D6F9;
 }
 
 .subheading-1 {
     font-family: 'Bellefair', sans-serif;
     font-size: 28px;
+    color: white;
 }
 
 .subheading-2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 14px;
-    letter-spacing: 2.35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* ------------------ destination-moon.html: top-div ------------------ */
@@ -265,7 +268,6 @@ p {
 .subheading-1, .subheading-2 {
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 .travel-time-class {

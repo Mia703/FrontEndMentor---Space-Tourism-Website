@@ -50,7 +50,7 @@ p {
     /* justify text */
     text-align: justify;
 
-    color: rgb(151, 151, 151);
+    color: #D0D6F9;
 }
 
 /* ------------------ index.html: top-div ------------------ */
@@ -236,3 +236,5 @@ p {
     
     text-decoration: none;
 }
+
+/* =================== responsive edits =================== */
